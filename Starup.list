@@ -1,6 +1,6 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
-# > 自用 更新时间 2022.06.25
+# > 自用 更新时间 2022.07.24
 # >  */ 
 
 # > 云闪付
@@ -52,13 +52,6 @@ HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com, reject
 HOST,ad.toutiao.com, reject
 HOST,dsp.toutiao.com, reject
 host-keyword,pangolin.snssdk.com, reject
-# > 微软
-HOST-SUFFIX,ads.msn.com, reject
-HOST-SUFFIX,ads1.msn.com, reject
-HOST-SUFFIX,ads2.msn.com, reject
-HOST-SUFFIX,bingads.microsoft.com, reject
-HOST-SUFFIX,rads.msn.com, reject
-HOST,mobileads.msn.com, reject
 # > 墨迹天气
 host-keyword, fds.api.moji.com, reject
 host-keyword, me.api.moji.com, reject
