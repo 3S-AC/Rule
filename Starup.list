@@ -1,16 +1,15 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
 # > 自用 更新时间 2022.07.24
-# >  */ 
 
 # > 云闪付
-host-keyword, switch.cup.com.cn, reject
-host-keyword, sdk.open.talk.getui.net, reject
-host-keyword, sdk-conf.getui.com, reject
-host-keyword, cm-10-138.getui.com, reject
-host-keyword, ads.95516.com, reject
+HOST-KEYWORD, switch.cup.com.cn, reject
+HOST-KEYWORD, sdk.open.talk.getui.net, reject
+HOST-KEYWORD, sdk-conf.getui.com, reject
+HOST-KEYWORD, cm-10-138.getui.com, reject
+HOST-KEYWORD, ads.95516.com, reject
 # > 高德
-host-keyword, ossgw.alicdn.com,REJECT
+HOST-KEYWORD, ossgw.alicdn.com,REJECT
 HOST-SUFFIX,adiu.amap.com,REJECT
 HOST,aboard.apilocate.amap.com,REJECT
 HOST,apiinit.amap.com,REJECT
@@ -34,20 +33,20 @@ HOST-SUFFIX, meituangov.cn, reject
 HOST-SUFFIX, report.meituan.com, reject
 HOST-SUFFIX, wmlog.meituan.com, reject
 # > 交管12123
-host, static.122.gov.cn, reject
+HOST, static.122.gov.cn, reject
 HOST-SUFFIX, v3.fstats.xyz, reject
 HOST-SUFFIX, wss.haoyundmn.com, reject 
 HOST-SUFFIX, new.xiongzhangad.com, reject  
 HOST-SUFFIX, alexametrics.com, reject 
 HOST-KEYWORD, in-page-push, reject
 # > 墨迹天气
-host-keyword, fds.api.moji.com, reject
-host-keyword, me.api.moji.com, reject
-host-keyword, android.bugly.qq.com, reject
-host-keyword, av1.xdrig.com, reject
-host-keyword, adash.man.aliyuncs.com, reject
-host-keyword, v1.log.moji.com, reject
-host-keyword, ad.api.moji.com, reject
+HOST-KEYWORD, fds.api.moji.com, reject
+HOST-KEYWORD, me.api.moji.com, reject
+HOST-KEYWORD, android.bugly.qq.com, reject
+HOST-KEYWORD, av1.xdrig.com, reject
+HOST-KEYWORD, adash.man.aliyuncs.com, reject
+HOST-KEYWORD, v1.log.moji.com, reject
+HOST-KEYWORD, ad.api.moji.com, reject
 HOST,ad.api.moji.com, reject
 HOST,adlaunch.moji.com, reject
 HOST,ads.mojicdn.com, reject
@@ -154,7 +153,6 @@ HOST-SUFFIX,cm.kwad.com, reject
 # > 铁路12306
 HOST, ad.12306.cn, REJECT
 # > 抖音
-host-keyword,bds.snssdk.com, reject
-host-keyword,p6-ad-sign.byteimg.com, reject
-host-keyword,p3.pstatp.com, reject
-
+HOST-KEYWORD,bds.snssdk.com, reject
+HOST-KEYWORD,p6-ad-sign.byteimg.com, reject
+HOST-KEYWORD,p3.pstatp.com, reject
