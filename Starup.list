@@ -39,6 +39,26 @@ HOST-SUFFIX, wss.haoyundmn.com, reject
 HOST-SUFFIX, new.xiongzhangad.com, reject  
 HOST-SUFFIX, alexametrics.com, reject 
 HOST-KEYWORD, in-page-push, reject
+# > 优酷
+HOST-SUFFIX,atm.youku.com, reject
+HOST,ad.mobile.youku.com, reject
+HOST,iyes.youku.com, reject
+HOST,pl.cp31.ott.cibntv.net, reject
+# > 知乎
+USER-AGENT,AVOS*, reject
+HOST,appcloud2.in.zhihu.com, reject
+HOST,mqtt.zhihu.com, reject
+HOST,sugar.zhihu.com, reject
+HOST,118.89.204.198, reject
+IP-CIDR,118.89.204.198/32, reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# > 哔哩哔哩
+HOST-SUFFIX,cm.bilibili.com, reject
+host-keyword, api.sobot.com, reject
+HOST-SUFFIX,cm.ad.bilibili.com, reject
+HOST-SUFFIX,cm.adcommon.bilibili.com, reject
+HOST-SUFFIX,cm.game.bilibili.com, reject
+HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 # > 墨迹天气
 HOST-KEYWORD, fds.api.moji.com, reject
 HOST-KEYWORD, me.api.moji.com, reject
