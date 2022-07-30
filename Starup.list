@@ -39,11 +39,6 @@ HOST-SUFFIX, wss.haoyundmn.com, reject
 HOST-SUFFIX, new.xiongzhangad.com, reject  
 HOST-SUFFIX, alexametrics.com, reject 
 HOST-KEYWORD, in-page-push, reject
-# > 优酷
-HOST-SUFFIX,atm.youku.com, reject
-HOST,ad.mobile.youku.com, reject
-HOST,iyes.youku.com, reject
-HOST,pl.cp31.ott.cibntv.net, reject
 # > 知乎
 USER-AGENT,AVOS*, reject
 HOST,appcloud2.in.zhihu.com, reject
