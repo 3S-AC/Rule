@@ -88,7 +88,7 @@ HOST-SUFFIX, cm.downloader.commercial.kuaishou.com, reject
 HOST-SUFFIX, cm.ad.gifshow.com, reject
 HOST-SUFFIX, cm.kwad.com, reject
 # > 铁路12306
-HOST, ad.12306.cn, REJECT
+HOST, ad.12306.cn, reject
 # > 抖音
 HOST-KEYWORD, bds.snssdk.com, reject
 HOST-KEYWORD, p6-ad-sign.byteimg.com, reject
@@ -100,5 +100,5 @@ HOST, mqtt.zhihu.com, reject
 HOST, sugar.zhihu.com, reject
 HOST, 118.89.204.198, reject
 IP-CIDR, 118.89.204.198/32, reject
-IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
