@@ -1,6 +1,5 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
-# > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
-# > 自用 更新时间 2022.07.24
+# > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！
 
 # > 云闪付
 HOST-KEYWORD, switch.cup.com.cn, reject
