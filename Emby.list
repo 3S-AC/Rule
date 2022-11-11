@@ -1,14 +1,31 @@
-HOST, emby.52.al, Emby
-HOST, embymv.tk, Emby
-HOST, sg.embymv.tk, Emby
-HOST, cc.ccemby.tk, Emby
-HOST, aaa.ax, Emby
-HOST, hk.aaa.ax, Emby
-HOST, xyt.emby.ml, Emby
-HOST, cf.misakaf.org, Emby
-HOST, nakoemby.com, Emby
-HOST, cu.poloemby.xyz, Emby
-HOST, cf.emby.ml, Emby
-HOST, 4545.cf, Emby
-HOST, media.bddup.com, Emby
-HOST, emby.222921.xyz, Emby
+# > NAME: 流媒体emby服务器
+
+# > Peach
+HOST-SUFFIX, embymv.tk, Emby
+HOST-SUFFIX, emby-peach.blueseacdn.com
+HOST-SUFFIX, sg.embymv.tk, Emby
+# > Cc
+HOST-SUFFIX, cc.ccemby.tk, Emby
+# > Misty
+HOST-SUFFIX, aaa.ax, Emby
+HOST-SUFFIX, hk.aaa.ax, Emby
+# > Misakaf
+HOST-SUFFIX, cf.misakaf.org, Emby
+HOST-SUFFIX, 4837.misakaf.org
+# > Nako
+HOST-SUFFIX, nakoemby.com, Emby
+HOST-SUFFIX, 20.205.38.244:8096, Emby
+# > Polo
+HOST-SUFFIX, cu.poloemby.xyz, Emby
+HOST-SUFFIX, nlz.poloemby.xyz
+HOST-SUFFIX, zf.poloemby.xyz
+HOST-SUFFIX, zfsg.poloemby.xyz
+HOST-SUFFIX, happy.poloemby.xyz
+# > Loser
+HOST-SUFFIX, cf.emby.ml, Emby
+# > Free
+HOST-SUFFIX, 4545.cf, Emby
+# > BigDD
+HOST-SUFFIX, media.bddup.com, Emby
+# > Hxd
+HOST-SUFFIX, emby.222921.xyz, Emby
