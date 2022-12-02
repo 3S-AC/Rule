@@ -2,30 +2,23 @@
 
 # > Peach
 HOST-SUFFIX, embymv.tk, Emby
-HOST-SUFFIX, emby-peach.blueseacdn.com
-HOST-SUFFIX, sg.embymv.tk, Emby
 # > Cc
-HOST-SUFFIX, cc.ccemby.tk, Emby
+HOST-SUFFIX, ccemby.tk, Emby
 # > Misty
 HOST-SUFFIX, aaa.ax, Emby
-HOST-SUFFIX, hk.aaa.ax, Emby
+HOST-SUFFIX, misty.ltd, Emby
 # > Misakaf
-HOST-SUFFIX, cf.misakaf.org, Emby
-HOST-SUFFIX, 4837.misakaf.org
+HOST-SUFFIX, misakaf.org, Emby
 # > Nako
 HOST-SUFFIX, nakoemby.com, Emby
-HOST-SUFFIX, 20.205.38.244:8096, Emby
 # > Polo
-HOST-SUFFIX, cu.poloemby.xyz, Emby
-HOST-SUFFIX, nlz.poloemby.xyz
-HOST-SUFFIX, zf.poloemby.xyz
-HOST-SUFFIX, zfsg.poloemby.xyz
-HOST-SUFFIX, happy.poloemby.xyz
+HOST-SUFFIX, poloemby.xyz, Emby
 # > Loser
-HOST-SUFFIX, cf.emby.ml, Emby
+HOST-SUFFIX, emby.ml, Emby
+HOST-SUFFIX, loseremby.org, Emby
 # > Free
 HOST-SUFFIX, 4545.cf, Emby
 # > BigDD
-HOST-SUFFIX, media.bddup.com, Emby
+HOST-SUFFIX, bddup.com, Emby
 # > Hxd
-HOST-SUFFIX, emby.222921.xyz, Emby
+HOST-SUFFIX, 222921.xyz, Emby
