@@ -494,19 +494,7 @@ HOST-SUFFIX, stash-activation.com, PROXY
 HOST-KEYWORD, xn--, PROXY
 
 # ---(机场)---
-HOST, sub.jsy88.net, PROXY
-# > 魔法学院
-HOST, link.002.se, PROXY
-# > 独角兽
-HOST, d9s.me, PROXY
-HOST, mail1.9wan.win, PROXY
-HOST, unicorncloud.club, PROXY
-# > Teacat
-HOST, teacat.cloud, PROXY
-HOST, rss.teacat001.xyz, PROXY
-# > EFCloud
-HOST, www.efcloud.bio, PROXY
-HOST, www.efcloud.net, PROXY
-# > iKuuu
-HOST, ikuuu.co, PROXY
-HOST, api.ndsxfkjfvhzdsfio.quest, PROXY
+# > JSJC
+HOST, jsjc.cfd, PROXY
+# > GSJC
+HOST, gsjc.sbs, PROXY
