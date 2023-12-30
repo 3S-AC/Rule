@@ -14,6 +14,7 @@ HOST, smtp-mail.outlook.com, DIRECT
 HOST, smtp.office365.com, DIRECT
 HOST-SUFFIX, hotmail.com, DIRECT
 # > Office & OneDrive
+HOST-SUFFIX, microsoft.com, DIRECT
 HOST-SUFFIX, office.com, DIRECT
 HOST-SUFFIX, live.com, DIRECT
 HOST-SUFFIX, live.net, DIRECT
