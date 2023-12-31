@@ -1,7 +1,6 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/release/rule/QuantumultX/Lan/Lan.list
-# 2023-04-07 14:50:29
 
-# LAN
+# LAN #
 IP-CIDR, 0.0.0.0/8, DIRECT
 IP-CIDR, 10.0.0.0/8, DIRECT
 IP-CIDR, 100.64.0.0/10, DIRECT
@@ -16,58 +15,66 @@ IP-CIDR, 198.18.0.0/15, DIRECT
 IP-CIDR, 198.51.100.0/24, DIRECT
 IP-CIDR, 203.0.113.0/24, DIRECT
 IP-CIDR, 224.0.0.0/3, DIRECT
-IP6-CIDR, ::1/128, DIRECT
+IP6-CIDR, ::/127, DIRECT
 IP6-CIDR, fc00::/7, DIRECT
 IP6-CIDR, fe80::/10, DIRECT
-HOST,ad.10010.com,Direct
-HOST,alt1-mtalk.google.com,Direct
-HOST,alt2-mtalk.google.com,Direct
-HOST,alt3-mtalk.google.com,Direct
-HOST,alt4-mtalk.google.com,Direct
-HOST,alt5-mtalk.google.com,Direct
-HOST,alt6-mtalk.google.com,Direct
-HOST,alt7-mtalk.google.com,Direct
-HOST,alt8-mtalk.google.com,Direct
-HOST,analytics.95516.com,Direct
-HOST,analytics.strava.com,Direct
-HOST,app.adjust.com,Direct
-HOST,app.appsflyer.com,Direct
-HOST,bdtj.tagtic.cn,Direct
-HOST,clientservices.googleapis.com,Direct
-HOST,dl.google.com,Direct
-HOST,dl.l.google.com,Direct
-HOST,eco-push-api-client.meiqia.com,Direct
-HOST,errlog.umeng.com,Direct
-HOST,fairplay.l.qq.com,Direct
-HOST,livew.l.qq.com,Direct
-HOST,log.mmstat.com,Direct
-HOST,msg.umeng.com,Direct
-HOST,msg.umengcloud.com,Direct
-HOST,mtalk.google.com,Direct
-HOST,new-api.meiqia.com,Direct
-HOST,origin-a.akamaihd.net,Direct
-HOST,rewards.hypixel.net,Direct
-HOST,sycm.mmstat.com,Direct
-HOST,tracking.miui.com,Direct
-HOST,update.googleapis.com,Direct
-HOST,vd.l.qq.com,Direct
-HOST,vi.l.qq.com,Direct
-HOST-SUFFIX,baomitu.com,Direct
-HOST-SUFFIX,blog.google,Direct
-HOST-SUFFIX,bootcss.com,Direct
-HOST-SUFFIX,dizhensubao.getui.com,Direct
-HOST-SUFFIX,f.video.weibocdn.com,Direct
-HOST-SUFFIX,fus.cdn.krcom.cn,Direct
-HOST-SUFFIX,googletraveladservices.com,Direct
-HOST-SUFFIX,jiasule.com,Direct
-HOST-SUFFIX,koodomobile.ca,Direct
-HOST-SUFFIX,koodomobile.com,Direct
-HOST-SUFFIX,ol.epicgames.com,Direct
-HOST-SUFFIX,staticfile.org,Direct
-HOST-SUFFIX,tracking-protection.cdn.mozilla.net,Direct
-HOST-SUFFIX,upaiyun.com,Direct
-HOST-KEYWORD,wb_ad,Direct
-USER-AGENT,Coffee%20Corp*,Direct
-USER-AGENT,archero*,Direct
-USER-AGENT,coffeecorp*,Direct
-USER-AGENT,restaurant-mobile*,Direct
+IP6-CIDR, ff00::/8, DIRECT
+HOST-SUFFIX, local, DIRECT
+
+# 分流修正 #
+# anti-ad
+host-keyword, anti-ad.net, direct
+# QQ空间
+host-keyword, ctc.qzs.qzone.qq.com, direct
+# Strava
+host,analytics.strava.com, direct
+# Tencent
+host,fairplay.l.qq.com, direct
+host,livew.l.qq.com, direct
+host,vd.l.qq.com, direct
+host,vi.l.qq.com, direct
+# Umeng
+host,msg.umeng.com, direct
+host,msg.umengcloud.com, direct
+# 携程
+host-keyword, aw-s.tripcdn.com, direct
+host-keyword, trip.com, direct
+
+# XPTV #
+host-suffix, infuseku.xyz, direct
+# Novipnoad
+host-keyword, novipnoad, direct
+# Vods
+# 无尽资源
+host-suffix, cjkypo.com, direct
+host-suffix, 1080pzy.co, direct
+host-keyword, wujin, direct
+# 非凡资源
+host-keyword, ffzy, direct
+# 量子资源
+host-suffix, lziapi.com, direct
+host-suffix, lzizy.net, direct
+host-keyword, cdnlz, direct
+host-keyword, lz-cdn, direct
+# 乐视资源
+host-keyword, leshi, direct
+# 玩偶哥哥
+host-suffix, wogg.link, direct
+# 在线之家
+host-suffix, zxzja.com, direct
+# 低端影视
+host-suffix, ddys.pro, direct
+# 厂长资源
+host-suffix, czzy33.com, direct
+
+# Emby直连 #
+# LOS
+host-suffix, xmsl.org, direct
+ip-cidr, 193.122.114.77/32, direct
+# ZPR
+host-suffix, embyplus.org, direct
+host-suffix, 9521732.xyz, direct
+# HXD
+ip-cidr, 152.70.239.210/32, direct
+# KAP
+ip-cidr, 140.238.6.215/32, direct
