@@ -25,23 +25,26 @@ HOST-SUFFIX, local, DIRECT
 # anti-ad
 host-keyword, anti-ad.net, direct
 # > Alibaba
-host,log.mmstat.com, direct
-host,sycm.mmstat.com, direct
+host, log.mmstat.com, direct
+host, sycm.mmstat.com, direct
 # QQ空间
 host-keyword, ctc.qzs.qzone.qq.com, direct
 # Strava
-host,analytics.strava.com, direct
+host, analytics.strava.com, direct
 # Tencent
-host,fairplay.l.qq.com, direct
-host,livew.l.qq.com, direct
-host,vd.l.qq.com, direct
-host,vi.l.qq.com, direct
+host, fairplay.l.qq.com, direct
+host, livew.l.qq.com, direct
+host, vd.l.qq.com, direct
+host, vi.l.qq.com, direct
 # Umeng
-host,msg.umeng.com, direct
-host,msg.umengcloud.com, direct
+host, msg.umeng.com, direct
+host, msg.umengcloud.com, direct
 # 携程
 host-keyword, aw-s.tripcdn.com, direct
 host-keyword, trip.com, direct
+# UC
+host, sdkapp.uve.weibo.com, direct
+host-suffix, ucweb.com, direct
 
 # XPTV #
 host-suffix, infuseku.xyz, direct
