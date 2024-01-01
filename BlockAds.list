@@ -1,4 +1,4 @@
-# 2023-12-18 17:05
+# 2023-01-01 21:40
 
 # ======= A ======= #
 # 阿里巴巴
@@ -40,6 +40,9 @@ HOST, afdconf.baidu.com, REJECT
 HOST, lc.map.baidu.com, REJECT
 # 百度贴吧
 IP-CIDR, 180.76.76.200/32, REJECT
+# 百词斩
+HOST, advertise.baicizhan.com, REJECT
+HOST, advertise.baicizhan.org, REJECT
 
 # ======= C ======= #
 # 彩云天气
@@ -53,6 +56,11 @@ HOST, collector.clue.run, REJECT
 HOST, images.ctfassets.net, REJECT
 HOST, mapi.apptimize.com, REJECT
 HOST, md-i-s.apptimize.com, REJECT
+
+# ======= D ======= #
+# > 抖音
+HOST-KEYWORD, bds.snssdk.com, reject
+HOST-KEYWORD, p3.pstatp.com, reject
 
 # ======= F ======= #
 # Foreca & Google
@@ -81,6 +89,8 @@ HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
 HOST-KEYWORD, pangolin.snssdk.com, REJECT
 HOST-KEYWORD, pglstatp-toutiao, REJECT
 HOST-KEYWORD, video-cn.snssdk.com, REJECT
+HOST-KEYWORD, volcvod.com, REJECT
+HOST-KEYWORD, volceapplog.com, REJECT
 
 # ======= H ======= #
 # 海尔智家
@@ -135,6 +145,14 @@ HOST, maplocatesdksnapshot.d.meituan.net, REJECT
 HOST, metrics-picture.d.meituan.net, REJECT
 HOST, open.kuaishouzt.com, REJECT
 HOST, route-stats.d.meituan.net, REJECT
+HOST, flowplus.meituan.net, REJECT
+HOST-SUFFIX, analytics.meituan.net, REJECT
+HOST-SUFFIX, meituan.xn--io0a7i, REJECT
+HOST-SUFFIX, meituan.yoga, REJECT
+HOST-SUFFIX, meituangov.cn, REJECT
+HOST-SUFFIX, report.meituan.com, REJECT
+HOST-SUFFIX, wmlog.meituan.com, REJECT
+
 # 美颜相机
 HOST, aaid.uyunad.com, REJECT
 HOST, adui.tg.meitu.com, REJECT
@@ -179,6 +197,13 @@ HOST, ipv6.music.163.com, REJECT
 HOST-SUFFIX, 163jiasu.com, REJECT
 # 微博 开屏广告
 HOST-SUFFIX, biz.weibo.com, REJECT
+# > 微软
+HOST-SUFFIX, ads.msn.com, REJECT
+HOST-SUFFIX, ads1.msn.com, REJECT
+HOST-SUFFIX, ads2.msn.com, REJECT
+HOST-SUFFIX, bingads.microsoft.com, REJECT
+HOST-SUFFIX, rads.msn.com, REJECT
+HOST, mobileads.msn.com, REJECT
 
 # ======= X ======= #
 # 小米
@@ -228,3 +253,9 @@ HOST, zxid-m.mobileservice.cn, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
+# 中国移动
+IP-CIDR, 120.240.95.37/32, REJECT
+# > 字节跳动
+HOST, ad.zijieapi.com, REJECT
+HOST-SUFFIX, -normal-lq.zijieapi.com, REJECT
+HOST-KEYWORD, ad-sign.byteimg.com, REJECT
