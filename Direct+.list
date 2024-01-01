@@ -24,6 +24,9 @@ HOST-SUFFIX, local, DIRECT
 # 分流修正 #
 # anti-ad
 host-keyword, anti-ad.net, direct
+# > Alibaba
+host,log.mmstat.com, direct
+host,sycm.mmstat.com, direct
 # QQ空间
 host-keyword, ctc.qzs.qzone.qq.com, direct
 # Strava
