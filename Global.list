@@ -1,5 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
-# 2023-12-10 14:45
+# 2024-01-01 14:45
 
 # (D.C.S.G?)
 HOST-SUFFIX, 9cache.com, PROXY
@@ -350,6 +350,11 @@ HOST, assets1.xboxlive.com, PROXY
 HOST, assets2.xboxlive.com, PROXY
 HOST, az416426.vo.msecnd.net, PROXY
 HOST, az668014.vo.msecnd.net, PROXY
+HOST-SUFFIX, bing.com, PROXY
+HOST-SUFFIX, linkedin.com, PROXY
+HOST-SUFFIX, licdn.com, PROXY
+HOST-SUFFIX, msn.com, PROXY
+HOST-SUFFIX, skype.com, PROXY
 # > Pinterest
 HOST-SUFFIX, pinimg.com, PROXY
 HOST-KEYWORD, .pinterest., PROXY
@@ -469,14 +474,6 @@ HOST, news-client-search.apple.com, PROXY
 HOST, news-edge.apple.com, PROXY
 HOST, news-events.apple.com, PROXY
 HOST, apple.comscoreresearch.com, PROXY
-
-# ------
-# > Microsoft
-HOST-SUFFIX, bing.com, PROXY
-HOST-SUFFIX, linkedin.com, PROXY
-HOST-SUFFIX, licdn.com, PROXY
-HOST-SUFFIX, msn.com, PROXY
-HOST-SUFFIX, skype.com, PROXY
 # > Framagit
 HOST-SUFFIX, framagit.com, PROXY
 HOST-SUFFIX, framagit.org, PROXY
@@ -493,7 +490,7 @@ HOST-SUFFIX, stash-activation.com, PROXY
 # > Punycode
 HOST-KEYWORD, xn--, PROXY
 
-# ---(机场)---
+# -----Airport-----
 # > JSJC
 HOST, jsjc.cfd, PROXY
 # > GSJC
