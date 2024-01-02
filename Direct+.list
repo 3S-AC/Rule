@@ -107,15 +107,15 @@ host-suffix, czzy33.com, direct
 # Emby直连 #
 # LOS
 host-suffix, xmsl.org, direct
-ip-cidr, 193.122.114.77/32, direct
+ip-cidr, 193.122.114.77/24, direct
 # ZPR
 host-suffix, embyplus.org, direct
 host-suffix, 9521732.xyz, direct
 # HXD
 host-suffix, bili.rip, direct
-ip-cidr, 152.70.239.210/32, direct
+ip-cidr, 152.70.239.210/24, direct
 # KAP
-ip-cidr, 140.238.6.215/32, direct
+ip-cidr, 140.238.6.215/24, direct
 host-suffix, 200300.xyz, direct
 # SHU
 host-suffix, mcjoker.xyz, direct
