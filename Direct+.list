@@ -76,4 +76,46 @@ host-keyword, trip.com, direct
 # UC
 host, sdkapp.uve.weibo.com, direct
 host-suffix, ucweb.com, direct
+# XPTV #
+host-suffix, infuseku.xyz, direct
+# Novipnoad
+host-keyword, novipnoad, direct
+# Vods
+# 无尽资源
+host-suffix, cjkypo.com, direct
+host-suffix, 1080pzy.co, direct
+host-keyword, wujin, direct
+# 非凡资源
+host-keyword, ffzy, direct
+# 量子资源
+host-suffix, lziapi.com, direct
+host-suffix, lzizy.net, direct
+host-keyword, cdnlz, direct
+host-keyword, lz-cdn, direct
+# 乐视资源
+host-keyword, leshi, direct
+# 玩偶哥哥
+host-suffix, wogg.link, direct
+# 在线之家
+host-suffix, zxzja.com, direct
+# 低端影视
+host-suffix, ddys.pro, direct
+# 厂长资源
+host-suffix, czzy33.com, direct
+
+# Emby直连 #
+# LOS
+host-suffix, xmsl.org, direct
+ip-cidr, 193.122.114.77/32, direct
+# ZPR
+host-suffix, embyplus.org, direct
+host-suffix, 9521732.xyz, direct
+# HXD
+host-suffix, bili.rip, direct
+ip-cidr, 152.70.239.210/32, direct
+# KAP
+ip-cidr, 140.238.6.215/32, direct
+host-suffix, 200300.xyz, direct
+# SHU
+host-suffix, mcjoker.xyz, direct
 
