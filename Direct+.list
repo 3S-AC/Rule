@@ -95,7 +95,7 @@ host-keyword, lz-cdn, direct
 # 乐视资源
 host-keyword, leshi, direct
 # 玩偶哥哥
-host-suffix, wogg.link, direct
+host-keyword, wogg, direct
 # JOJO
 host-suffix, jiohub.top, direct
 # 在线之家
