@@ -101,7 +101,7 @@ host-suffix, zxzja.com, direct
 # 低端影视
 host-suffix, ddys.pro, direct
 # 厂长资源
-host-suffix, czzy33.com, direct
+host-keyword, czzy, direct
 
 # Emby直连 #
 # LOS
