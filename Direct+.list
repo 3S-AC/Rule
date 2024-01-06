@@ -1,4 +1,5 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/release/rule/QuantumultX/Lan/Lan.list
+# https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list
 
 # LAN #
 IP-CIDR, 0.0.0.0/8, DIRECT
@@ -21,45 +22,13 @@ IP6-CIDR, fe80::/10, DIRECT
 IP6-CIDR, ff00::/8, DIRECT
 HOST-SUFFIX, local, DIRECT
 
-# 分流修正 #
-# Apple相关服务 #
-# > 苹果推送服务
-host-keyword, push.apple.com, direct
-# > 苹果时间同步
-host, time.apple.com, direct
-# > 苹果天气服务
-host-keyword, weather-edge.apple.com, direct
-host-keyword, weather-adge.apple.com, direct
-host-suffix, weather-data.apple.com, direct
-host-suffix, weather-map.apple.com, direct
-host-suffix, weather-analytics-events.apple.com, direct
-# > 苹果内购服务
-host-keyword, buy.itunes.apple.com, direct
-# > 苹果icloud
-host-keyword, icloud.com, direct
-# > 苹果输入法相关服务
-host-keyword, api.smoot.apple.com, direct
-host-keyword, api.smoot.apple.cn, direct
-# > 苹果iMessage服务
-host, init.ess.apple.com, direct
-# > 苹果其他服务
-host-keyword, ssl.apple.com, direct
-host-keyword, humb.apple.com, direct
-host, smp-device-content.apple.com, direct
-host-keyword, api-adservices.apple.com, direct
-host-keyword, ls.apple.com, direct
-host-keyword, gsa.apple.com, direct
-host-keyword, ess.apple.com, direct
-# > 苹果app store
-host, itunes.apple.com, direct
-
 # anti-ad
-host-keyword, anti-ad.net, direct
-# > Alibaba
+host-suffix, anti-ad.net, direct
+# Alibaba
 host, log.mmstat.com, direct
 host, sycm.mmstat.com, direct
 # QQ空间
-host-keyword, ctc.qzs.qzone.qq.com, direct
+host-suffix, ctc.qzs.qzone.qq.com, direct
 # Strava
 host, analytics.strava.com, direct
 # Tencent
@@ -71,8 +40,8 @@ host, vi.l.qq.com, direct
 host, msg.umeng.com, direct
 host, msg.umengcloud.com, direct
 # 携程
-host-keyword, aw-s.tripcdn.com, direct
-host-keyword, trip.com, direct
+host-suffix, aw-s.tripcdn.com, direct
+host-suffix, trip.com, direct
 # UC
 host, sdkapp.uve.weibo.com, direct
 host-suffix, ucweb.com, direct
@@ -80,7 +49,7 @@ host-suffix, ucweb.com, direct
 host-suffix, infuseku.xyz, direct
 # Novipnoad
 host-keyword, novipnoad, direct
-# Vods
+# VODs
 # 无尽资源
 host-suffix, cjkypo.com, direct
 host-suffix, 1080pzy.co, direct
@@ -100,8 +69,9 @@ host-keyword, wogg, direct
 host-keyword, jiohub, direct
 # 在线之家
 host-suffix, zxzja.com, direct
+host-suffix, zxzj.pro, direct
 # 低端影视
-host-suffix, ddys.pro, direct
+host-keyword, ddys, direct
 # 厂长资源
 host-keyword, czzy, direct
 
