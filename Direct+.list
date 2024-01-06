@@ -97,11 +97,11 @@ host-keyword, leshi, direct
 # 玩偶哥哥
 host-keyword, wogg, direct
 # JOJO
-host-suffix, jiohub.top, direct
+host-keyword, jiohub, direct
 # 在线之家
 host-suffix, zxzja.com, direct
 # 低端影视
-host-suffix, ddys.pro, direct
+host-keyword, ddys, direct
 # 厂长资源
 host-keyword, czzy, direct
 
