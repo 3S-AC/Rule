@@ -119,6 +119,10 @@ HOST, mobilead.kuwo.cn, REJECT
 HOST, rich.kuwo.cn, REJECT
 HOST, tmead.y.qq.com, REJECT
 HOST, tmeadcomm.y.qq.com, REJECT
+# keep
+HOST, apm.gotokeep.com, REJECT
+HOST, kad.gotokeep.com, REJECT
+HOST, httpdns.calorietech.com, REJECT
 
 # ======= L ======= #
 # 蓝奏云
