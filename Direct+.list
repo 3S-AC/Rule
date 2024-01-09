@@ -93,8 +93,5 @@ ip-cidr, 140.238.6.215/32, direct
 host-suffix, 200300.xyz, direct
 # SHU
 host-suffix, mcjoker.xyz, direct
-# 小说 #
-# 69书吧
-host-keyword, 69shu, direct
 
 
