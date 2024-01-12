@@ -77,6 +77,8 @@ host-keyword, ddys, direct
 host-keyword, czzy, direct
 # FreeOk
 host-suffix, freeok.vip, direct
+# Madou
+host-suffix, madou.club, direct
 
 # Emby直连 #
 # LOS
