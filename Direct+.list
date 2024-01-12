@@ -59,6 +59,7 @@ host-suffix, lziapi.com, direct
 host-suffix, lzizy.net, direct
 host-keyword, cdnlz, direct
 host-keyword, lz-cdn, direct
+host-keyword, lzzy, direct
 # 乐视资源
 host-keyword, leshi, direct
 # 玩偶哥哥
