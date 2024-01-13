@@ -50,10 +50,10 @@ host-suffix, infuseku.xyz, direct
 # Novipnoad
 host-keyword, novipnoad, direct
 # VODs
-# 无尽资源
-host-suffix, cjkypo.com, direct
-host-suffix, 1080pzy.co, direct
-host-keyword, wujin, direct
+# 索尼资源
+host-suffix, snzypic.com, direct
+host-suffix, suoniapi.com, direct
+host-keyword, suonizy, direct
 # 量子资源
 host-suffix, lziapi.com, direct
 host-suffix, lzizy.net, direct
