@@ -60,6 +60,8 @@ host-suffix, lzizy.net, direct
 host-keyword, cdnlz, direct
 host-keyword, lz-cdn, direct
 host-keyword, lzzy, direct
+# 非凡资源
+host-keyword, vip.ffzy, direct
 # 乐视资源
 host-keyword, leshi, direct
 # 玩偶哥哥
