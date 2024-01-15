@@ -62,6 +62,8 @@ HOST, md-i-s.apptimize.com, REJECT
 # > 抖音
 HOST-KEYWORD, bds.snssdk.com, reject
 HOST-KEYWORD, p3.pstatp.com, reject
+# DNS 无响应
+HOST, adttrackingprd.hwwt8.com, REJECT
 
 # ======= F ======= #
 # Foreca & Google
@@ -117,8 +119,7 @@ HOST, ad.tencentmusic.com, REJECT
 HOST, g.koowo.com, REJECT
 HOST, mobilead.kuwo.cn, REJECT
 HOST, rich.kuwo.cn, REJECT
-HOST, tmead.y.qq.com, REJECT
-HOST, tmeadcomm.y.qq.com, REJECT
+
 # keep
 HOST, apm.gotokeep.com, REJECT
 HOST, kad.gotokeep.com, REJECT
@@ -184,6 +185,9 @@ HOST, info6.video.qq.com, REJECT
 HOST, ios.video.mpush.qq.com, REJECT
 HOST, otheve.beacon.qq.com, REJECT
 HOST, pgdt.gtimg.cn, REJECT
+HOST, tmead.y.qq.com, REJECT
+HOST, tmeadbak.y.qq.com, REJECT
+HOST, tmeadcomm.y.qq.com, REJECT
 HOST, tpns.qq.com, REJECT
 HOST-SUFFIX, gdt.qq.com, REJECT
 HOST-SUFFIX, l.qq.com, REJECT
