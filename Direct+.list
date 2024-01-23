@@ -97,16 +97,6 @@ host-suffix, 200300.xyz, direct
 host-suffix, mcjoker.xyz, direct
 
 # 小说站 #
-host-suffix, sisiread.com, direct
-host-suffix, jpxs123.com, direct
-host-suffix, beitai.cc, direct
-host-suffix, ad2la.com, direct
-host-suffix, ttshu8.com, direct
-host-suffix, ebiquge.com, direct
-host-suffix, 83ks.net, direct
-host-suffix, 69read.net, direct
 host-suffix, xuanshu.org, direct
-host-suffix, wbsz.org, direct
-host-suffix, ibiquzw.info, direct
-host-suffix, 151txt.com, direct
+host-suffix, beitai.cc, direct
 
