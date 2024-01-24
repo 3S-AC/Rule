@@ -489,9 +489,3 @@ HOST-SUFFIX, stash.wiki, PROXY
 HOST-SUFFIX, stash-activation.com, PROXY
 # > Punycode
 HOST-KEYWORD, xn--, PROXY
-
-# -----Airport-----
-# > JSJC
-HOST, jsjc.cfd, PROXY
-# > GSJC
-HOST, gsjc.sbs, PROXY
