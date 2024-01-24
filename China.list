@@ -81,6 +81,53 @@ HOST-SUFFIX, tjupt.org, DIRECT
 HOST-SUFFIX, totheglory.im, DIRECT
 # > CN Web
 HOST, www.4khdr.cn, DIRECT
+# > XPTV
+host-suffix, infuseku.xyz, direct
+# 索尼资源
+host-suffix, snzypic.com, direct
+host-suffix, suoniapi.com, direct
+host-keyword, suonizy, direct
+# 量子资源
+host-suffix, lziapi.com, direct
+host-suffix, lzizy.net, direct
+host-keyword, cdnlz, direct
+host-keyword, lz-cdn, direct
+host-keyword, lzzy, direct
+# 乐视资源
+host-keyword, leshi, direct
+# 玩偶哥哥
+host-keyword, wogg, direct
+# JOJO
+host-keyword, jiohub, direct
+# 在线之家
+host-suffix, zxzja.com, direct
+host-suffix, zxzj.pro, direct
+host-suffix, zxzjhd.com, direct
+# 低端影视
+host-keyword, ddys, direct
+# 厂长资源
+host-keyword, czzy, direct
+# 哔嘀影视
+host-keyword, bdys, direct
 
-# GeoIP
+# > Emby
+# LOS
+host-suffix, xmsl.org, direct
+ip-cidr, 193.122.114.77/32, direct
+# ZPR
+host-suffix, embyplus.org, direct
+host-suffix, 9521732.xyz, direct
+# HXD
+host-suffix, bili.rip, direct
+# KAP
+ip-cidr, 140.238.6.215/32, direct
+host-suffix, 200300.xyz, direct
+# SHU
+host-suffix, mcjoker.xyz, direct
+
+# > 小说
+host-suffix, xuanshu.org, direct
+host-suffix, beitai.cc, direct
+
+# > GeoIP
 GEOIP, CN, DIRECT
